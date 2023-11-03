@@ -1,0 +1,5 @@
+/__pycache__/*.pyc
+/.idea/*.xml
+/.idea/inspectionProfiles/*.xml
+/.idea/*.iml
+/*.asv
