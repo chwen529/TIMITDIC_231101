@@ -1,7 +1,7 @@
 clc
 tic
-sentence_type = 'SA1' ;
-main_path = 'D:\TIMITDIC data_split_matlab_SA1_DR25_M';
+sentence_type = 'SA2' ;
+main_path = 'D:\TIMITDIC data_split_matlab_SA2_DR25_M';
 
 % sentence_type = 'SXI' ;
 % main_path = 'D:\TIMITDIC data_split_matlab_SX_DR25_M';
@@ -21,6 +21,7 @@ img_save = true;
 audio_save = true;
 
 save_limit = 3;
+save_count = 0;
 
 ext_img_save = false;
 ext_audio_save = false;
@@ -57,6 +58,10 @@ for data_set = {'TEST', 'TRAIN'}
         end
 
         for class_name = class_name_list
+
+            save_count = 0;
+            img_save = true;
+            audio_save = true;
     
             CF_path = fullfile(SF_path, class_name) ;
     
@@ -119,6 +124,13 @@ for data_set = {'TEST', 'TRAIN'}
 %                             end
 %                             
                             [data1, fs1] = audioread(char(fullfile(SF_path, class_name, CF_name, CF_name_file))) ;
+
+                            if save_count > save_limit
+                                img_save = false;
+                                audio_save = false;
+                            end
+
+                            save_count = save_count + 1;
                             
                             if contains(main_path, 'butter')
                                 fs = 500;
@@ -166,7 +178,7 @@ for data_set = {'TEST', 'TRAIN'}
                             T = [];
                             E = [];
 %                             Z = [];
-%                             E1 = [];
+                            E1 = [];
     
                             ind=length(data1') ;
     
@@ -341,7 +353,7 @@ for data_set = {'TEST', 'TRAIN'}
                                             close(gcf);
                                         end
 
-%                                         x_split(startPoint:endPoint) = x(startPoint:endPoint) ;
+                                        x_split(startPoint:endPoint) = x(startPoint:endPoint) ;
 %                                         x_split_merge = [x_split_merge, x(startPoint:endPoint)];
         
                                         % 寫入資料
@@ -363,7 +375,7 @@ for data_set = {'TEST', 'TRAIN'}
                                 end
                                  
 %                                 呈現原始訊號與切割後訊號
-                                if 1 == 2
+                                if img_save
                                     fig = figure;
                                     surf(peaks);
     %                                 fig = figure('Visible', 'off');
@@ -407,9 +419,6 @@ for data_set = {'TEST', 'TRAIN'}
 %                                 SM_shape_list{list_idx} = length(x_split_merge);
 %                                 SM_value_list{list_idx} = x_split_merge;
 %         
-                                % 關閉文件
-                                fclose(txtID);
-
                                 maxCount = 0;
 
                                 while maxCount < 3
@@ -424,6 +433,7 @@ for data_set = {'TEST', 'TRAIN'}
                                             audiowrite(char(fullfile(CF_name_img_path, append(strrep(CF_name_file, '.WAV.wav', ''), '_', CF_name, '_E_max_', num2str(maxCount), '.wav'))), x(pointList(i, 1):pointList(i, 2)), fs1) ;
                                             
 %                                           驗證用
+                                            figure('Visible', 'off');
                                             plot(T(pointList(i, 1):pointList(i, 2)),x(pointList(i, 1):pointList(i, 2)),'-') ;
                                             grid on,
                                             saveas(gcf, char(fullfile(CF_name_img_path, append('x_', strrep(CF_name_file, '.WAV.wav', ''), '_', CF_name, '_E_max_', num2str(maxCount), '.png'))));
@@ -431,10 +441,19 @@ for data_set = {'TEST', 'TRAIN'}
 
                                             E(pointList(i, 1):pointList(i, 2)) = 0;
 
+                                            % 寫入資料
+                                            fprintf(txtID, '\n');
+                                            fprintf(txtID, '---------------------------------MAX_%d-----\n', maxCount);
+                                            fprintf(txtID, '%f\n', pointList(i, 2) - pointList(i, 1));
+                                            fprintf(txtID, '%f:%f\n', pointList(i, 1), pointList(i, 2));
+
                                             break;
                                         end
                                     end
                                 end
+
+                                % 關閉文件
+                                fclose(txtID);
                             end
 
                             list_idx = list_idx + 1;
