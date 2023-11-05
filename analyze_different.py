@@ -9,12 +9,12 @@ import scipy
 sentence_type = 'SA1'
 # sentence_type = 'SA2'
 
-condition = ['DR25', 'M']
+condition = ['DR25']
 
 ver_list = [
-    # 'orig_50_', 'pe_50_', 'butter_50_'
-    'orig_30_', 'pe_30_', 'butter_30_'
-    'orig_12_', 'pe_12_', 'butter_12_'
+    'orig_50_', 'pe_50_', 'butter_50_',
+    'orig_30_', 'pe_30_', 'butter_30_',
+    'orig_12_', 'pe_12_', 'butter_12_',
 ]
 
 gen_img = False
@@ -25,8 +25,8 @@ source_path = r'D:\TIMITDIC data'
 data_path = r'D:\TIMITDIC_analyze_different'
 
 try:
-    # for data_set in ['TEST', 'TRAIN']:
-    for data_set in ['TRAIN']:
+    for data_set in ['TEST', 'TRAIN']:
+    # for data_set in ['TEST']:
         print(data_set)
 
         SF_path = os.path.join(source_path, data_set)
@@ -49,7 +49,7 @@ try:
         type_name_list = ['female', 'male']
 
         if 'DR25' in condition:
-            class_name_list = ['DR2', 'DR5']
+            class_name_list = ['DR1', 'DR3', 'DR4', 'DR6', 'DR7', 'DR8']
 
         if 'male' in condition:
             type_name_list = ['male']

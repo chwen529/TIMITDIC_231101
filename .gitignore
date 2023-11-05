@@ -3,3 +3,12 @@
 /.idea/inspectionProfiles/*.xml
 /.idea/*.iml
 /*.asv
+/TIMIT_mfcc_SA_EMAX/.idea/*.iml
+/TIMIT_mfcc_SA_EMAX/.idea/inspectionProfiles/*.xml
+/TIMIT_mfcc_SA_EMAX/.idea/*.xml
+/TIMIT_mfcc_SA_EMAX/__pycache__/*.pyc
+/train_history/orig_12_1_DR25_M_SA1_/*.png
+/train_history/orig_2612_1_DR25_M_SA1_/*.png
+/train_history/pe_12_1_DR25_M_SA1_/*.png
+/train_history/pe_12_1_DR25_M_SA1_2_/*.png
+/train_history/pe_2612_1_DR25_M_SA1_/*.png
