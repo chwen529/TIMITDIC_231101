@@ -17,14 +17,16 @@ ver = 'pe_12_1_DR25_M_'
 # ver = 'orig_30_1_DR25_M_' # 樣本不足
 # ver = 'pe_30_1_DR25_M_' # 樣本不足
 
+ver = 'pe_7_1_DR25_M_librosa_'
+
 ver += sentence_type + '_'
 
 outVer = ''
-outVer = '2_'
+# outVer = '2_'
 
 gen_img = False
-gen_img = True
-gen_img_limit = 2
+# gen_img = True
+gen_img_limit = 3
 
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data'
@@ -38,6 +40,9 @@ try:
         CNJF_path = os.path.join(data_path, data_set, 'cnn_normalize_EMAX')
 
         PF_name_list = ['logEnergyFB', 'mfcc']
+
+        if 'librosa' in ver:
+            PF_name_list = ['mfcc']
 
         type_name_list = ['F', 'M']
 
@@ -104,6 +109,16 @@ try:
 
                             if PF_name == 'mfcc':
                                 midValue = getMidValue(value, needLen, outVer)
+
+                        elif '_7_' in ver:
+                            needLen = 7
+
+                            if PF_name == 'logEnergyFB':
+                                midValue = getMidValue(value, needLen, outVer)
+
+                            if PF_name == 'mfcc':
+                                midValue = getMidValue(value, needLen, outVer)
+
 
                         elif '_30_' in ver:
                             needLen = 30

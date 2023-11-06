@@ -1,6 +1,6 @@
 import os
 import json
-from sound_funcMFCC import funcMFCC
+from sound_funcMFCC import funcMFCC, PreEmphasis
 import matplotlib.pyplot as plt
 import librosa
 import numpy as np
@@ -11,15 +11,17 @@ sentence_type = 'SA1'
 
 ver = 'orig_12_1_DR25_M_'
 ver = 'pe_12_1_DR25_M_'
-ver = 'orig_2612_1_DR25_M_'
-ver = 'pe_2612_1_DR25_M_'
-ver = 'orig_30_1_DR25_M_'
-ver = 'pe_30_1_DR25_M_'
+# ver = 'orig_2612_1_DR25_M_'
+# ver = 'pe_2612_1_DR25_M_'
+# ver = 'orig_30_1_DR25_M_'
+# ver = 'pe_30_1_DR25_M_'
+
+ver = 'pe_7_1_DR25_M_librosa_'
 
 ver += sentence_type + '_'
 
 gen_img = False
-gen_img = True
+# gen_img = True
 gen_img_limit = 3
 
 source_path = r'D:\TIMITDIC data_split_matlab_SA1_DR25_M\threshold0.03_frameLen100_silentMax300'
@@ -46,6 +48,11 @@ try:
             'logEnergyFB',
             'mfcc'
         ]
+
+        if 'librosa' in ver:
+            PF_name_list = [
+                'mfcc'
+            ]
 
         class_name_list = ['DR1', 'DR2', 'DR3', 'DR4', 'DR5', 'DR6', 'DR7', 'DR8']
 
@@ -130,6 +137,13 @@ try:
                                             AF_path, PF_name, nBanks=shape, start_nCeps=0, end_nCeps=shape
                                         )
 
+                                        if 'librosa' in ver and PF_name == 'mfcc':
+                                            y, sr = librosa.load(AF_path, sr=16000)
+
+                                            f_MFCC_parm = librosa.feature.mfcc(
+                                                y=y, sr=sr, n_mfcc=shape
+                                            )
+
                                     elif 'pe_12_' in ver:
 
                                         shape = 12
@@ -138,6 +152,33 @@ try:
                                             AF_path, PF_name, nBanks=shape, start_nCeps=0, end_nCeps=shape,
                                             preEmphasis=True, preCoeff=0.95
                                         )
+
+                                        if 'librosa' in ver and PF_name == 'mfcc':
+                                            y, sr = librosa.load(AF_path)
+
+                                            PEsignal = PreEmphasis(y, 0.95)
+
+                                            f_MFCC_parm = librosa.feature.mfcc(
+                                                y=PEsignal, sr=sr, n_mfcc=shape
+                                            )
+
+                                    elif 'pe_7_' in ver:
+
+                                        shape = 7
+
+                                        f_MFCC_parm = funcMFCC(
+                                            AF_path, PF_name, nBanks=shape, start_nCeps=0, end_nCeps=shape,
+                                            preEmphasis=True, preCoeff=0.95
+                                        )
+
+                                        if 'librosa' in ver and PF_name == 'mfcc':
+                                            y, sr = librosa.load(AF_path)
+
+                                            PEsignal = PreEmphasis(y, 0.95)
+
+                                            f_MFCC_parm = librosa.feature.mfcc(
+                                                y=PEsignal, sr=sr, n_mfcc=shape
+                                            )
 
                                     elif 'orig_2612_' in ver:
 

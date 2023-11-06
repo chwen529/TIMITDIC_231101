@@ -63,7 +63,7 @@ def getNormalizeValueNew(value, PF_name):
     """
 
     # pe_12_1_DR25_M_
-    # """
+    """
     if PF_name == 'logEnergyFB':
         maxValue = 8.203314169657908
         minValue = 0
@@ -73,7 +73,7 @@ def getNormalizeValueNew(value, PF_name):
     else:
         maxValue = np.max(value)
         minValue = np.min(value)
-    # """
+    """
 
     # orig_2612_1_DR25_M_
     """
@@ -101,16 +101,25 @@ def getNormalizeValueNew(value, PF_name):
         minValue = np.min(value)
     """
 
-
     # pe_12_1_DR25_M_
     # 2_
-    # """
+    """
     if PF_name == 'logEnergyFB':
         maxValue = 8.203314169657908
         minValue = 0
     elif PF_name == 'mfcc':
         maxValue = 171.5050046672282
         minValue = -38.455734882115564
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    """
+
+    # pe_7_1_DR25_M_librosa_
+    # """
+    if PF_name == 'mfcc':
+        maxValue = 179.1151580810547
+        minValue = -620.3335571289062
     else:
         maxValue = np.max(value)
         minValue = np.min(value)

@@ -13,9 +13,11 @@ ver = 'pe_12_1_DR25_M_'
 # ver = 'orig_30_1_DR25_M_' # 樣本不足
 # ver = 'pe_30_1_DR25_M_' # 樣本不足
 
+ver = 'pe_7_1_DR25_M_librosa_'
+
 ver += sentence_type + '_'
 
-ver += '2_'
+# ver += '2_'
 
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data'
@@ -29,6 +31,9 @@ for data_set in ['TEST', 'TRAIN']:
     CDF_path = os.path.join(data_path, data_set, 'cnn_dataset_EMAX')
 
     PF_name_list = ['logEnergyFB', 'mfcc']
+
+    if 'librosa' in ver:
+        PF_name_list = ['mfcc']
 
     type_name_list = ['F', 'M']
 
