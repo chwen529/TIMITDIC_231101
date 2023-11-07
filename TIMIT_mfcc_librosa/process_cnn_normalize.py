@@ -7,22 +7,12 @@ import datetime
 import openpyxl
 
 sentence_type = 'SA1'
-sentence_type = 'SA2'
+# sentence_type = 'SA2'
 # sentence_type = 'SA'
+sentence_type = 'SX'
 
-ver = 'orig_12_1_DR25_M_'
-ver = 'pe_12_1_DR25_M_'
-# ver = 'orig_2612_1_DR25_M_'
-# ver = 'pe_2612_1_DR25_M_'
-# ver = 'orig_30_1_DR25_M_' # 樣本不足
-# ver = 'pe_30_1_DR25_M_' # 樣本不足
-# ##################################################
-# ver = 'pe_7_1_DR25_M_librosa_'
-# ##################################################
-# ver = 'orig_12_3_DR25_M_'
-# ver = 'pe_12_3_DR25_M_'
-# ver = 'orig_2612_3_DR25_M_'
-# ver = 'pe_2612_3_DR25_M_'
+ver = 'orig_50_DR25_M_'
+# ver = 'pe_50_DR25_M_'
 
 ver += sentence_type + '_'
 
@@ -31,23 +21,20 @@ outVer = ''
 
 gen_img = False
 # gen_img = True
-gen_img_limit = 3
+gen_img_limit = 1
 
 now_path = r'D:\TIMITDIC_231101'
-data_path = now_path + '_data'
+data_path = now_path + '_data_all_sentence'
 
 try:
     for data_set in ['TEST', 'TRAIN']:
     # for data_set in ['TRAIN']:
         print(data_set)
 
-        MJF_path = os.path.join(data_path, data_set, 'mfcc_json_EMAX')
-        CNJF_path = os.path.join(data_path, data_set, 'cnn_normalize_EMAX')
+        MJF_path = os.path.join(data_path, data_set, 'mfcc_json_librosa')
+        CNJF_path = os.path.join(data_path, data_set, 'cnn_normalize_librosa')
 
-        PF_name_list = ['logEnergyFB', 'mfcc']
-
-        if 'librosa' in ver:
-            PF_name_list = ['mfcc']
+        PF_name_list = ['mfcc']
 
         type_name_list = ['F', 'M']
 
@@ -83,8 +70,7 @@ try:
                 for type_name in type_name_list:
 
                     img_path = os.path.join(
-                        data_path, data_set, 'img_cnn_normalize_EMAX', ver + outVer + 'cnn_' + PF_name,
-                        new_json_obj['class'], type_name
+                        data_path, data_set, 'img_librosa', ver + outVer + 'cnn_' + PF_name, new_json_obj['class'], type_name
                     )
                     img_2d_path = os.path.join(img_path, '2d')
                     img_value_path = os.path.join(img_path, 'value')
@@ -104,57 +90,16 @@ try:
                     for people in range(orig_json_obj[type_name]['people']):
 
                         value = np.array(orig_json_obj[type_name]['value'][people])
-                        midValue = 0
 
-                        if '_12_' in ver or '_2612_' in ver:
-                            needLen = 12
+                        if 'orig_50_' in ver or 'pe_50_':
+                            needLen = 50
 
-                            if PF_name == 'logEnergyFB':
-                                midValue = getMidValue(value, needLen, outVer)
-
-                            if PF_name == 'mfcc':
-                                midValue = getMidValue(value, needLen, outVer)
-
-                        elif '_7_' in ver:
-                            needLen = 7
-
-                            if PF_name == 'logEnergyFB':
-                                midValue = getMidValue(value, needLen, outVer)
-
-                            if PF_name == 'mfcc':
-                                midValue = getMidValue(value, needLen, outVer)
-
-
-                        elif '_30_' in ver:
-                            needLen = 30
-
-                            if PF_name == 'logEnergyFB':
-                                midValue = getMidValue(value, needLen, outVer)
-
-                            if PF_name == 'mfcc':
-                                midValue = getMidValue(value, needLen, outVer)
+                            midValue = getMidValue(value, needLen, outVer)
 
                         else:
                             needLen = 50
 
-                            if PF_name == 'logEnergyFB':
-                                midValue = getMidValue(value, needLen, outVer)
-
-                                # df = pd.DataFrame(value).T
-                                # df.to_excel(
-                                #     excel_writer='value' + datetime.datetime.now().strftime('%Y%m%d_%H%M%S') + '.xlsx'
-                                # )
-                                #
-                                # df = pd.DataFrame(midValue).T
-                                # df.to_excel(
-                                #     excel_writer='midValue' + datetime.datetime.now().strftime('%Y%m%d_%H%M%S') + '.xlsx'
-                                # )
-
-                            if PF_name == 'mfcc':
-                                midValue = getMidValue(value, needLen)
-
-                        if len(midValue) < needLen or len(midValue[0]) < needLen:
-                            print(orig_json_obj[type_name]['id'][people])
+                            midValue = getMidValue(value, needLen, outVer)
 
                         if np.max(midValue) > PF_max_value:
                             PF_max_value = np.max(midValue)
@@ -214,21 +159,6 @@ try:
                                 bbox_inches='tight',
                                 pad_inches=0
                             )
-
-                            # plt.clf()
-                            # ax = plt.subplot()
-                            # ax.plot(value[0])
-                            # plt.show()
-                            #
-                            # plt.clf()
-                            # ax = plt.subplot()
-                            # ax.plot(midValue[0])
-                            # plt.show()
-                            #
-                            # plt.clf()
-                            # ax = plt.subplot()
-                            # ax.plot(Nvalue[0])
-                            # plt.show()
 
                             # 一維拆解
                             for cate in ['value', 'midValue', 'Nvalue']:

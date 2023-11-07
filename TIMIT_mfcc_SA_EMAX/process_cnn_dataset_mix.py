@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 sentence_type = 'SA1'
-# sentence_type = 'SA2'
+sentence_type = 'SA2'
 # sentence_type = 'SA'
 
 ver = 'orig_12_1_DR25_M_'
@@ -12,10 +12,15 @@ ver = 'pe_12_1_DR25_M_'
 # ver = 'pe_2612_1_DR25_M_'
 # ver = 'orig_30_1_DR25_M_' # 樣本不足
 # ver = 'pe_30_1_DR25_M_' # 樣本不足
+# ##################################################
+# ver = 'orig_12_3_DR25_M_'
+# ver = 'pe_12_3_DR25_M_'
+# ver = 'orig_2612_3_DR25_M_'
+# ver = 'pe_2612_3_DR25_M_'
 
 ver += sentence_type + '_'
 
-ver += '2_'
+# ver += '2_'
 
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data'

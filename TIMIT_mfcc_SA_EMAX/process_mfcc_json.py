@@ -6,7 +6,7 @@ import librosa
 import numpy as np
 
 sentence_type = 'SA1'
-# sentence_type = 'SA2'
+sentence_type = 'SA2'
 # sentence_type = 'SA'
 
 ver = 'orig_12_1_DR25_M_'
@@ -15,8 +15,13 @@ ver = 'pe_12_1_DR25_M_'
 # ver = 'pe_2612_1_DR25_M_'
 # ver = 'orig_30_1_DR25_M_'
 # ver = 'pe_30_1_DR25_M_'
-
-ver = 'pe_7_1_DR25_M_librosa_'
+# ##################################################
+# ver = 'pe_7_1_DR25_M_librosa_'
+# ##################################################
+# ver = 'orig_12_3_DR25_M_'
+# ver = 'pe_12_3_DR25_M_'
+# ver = 'orig_2612_3_DR25_M_'
+# ver = 'pe_2612_3_DR25_M_'
 
 ver += sentence_type + '_'
 
@@ -24,7 +29,7 @@ gen_img = False
 # gen_img = True
 gen_img_limit = 3
 
-source_path = r'D:\TIMITDIC data_split_matlab_SA1_DR25_M\threshold0.03_frameLen100_silentMax300'
+source_path = r'D:\TIMITDIC data_split_matlab_SA2_DR25_M\threshold0.03_frameLen100_silentMax300'
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data'
 
@@ -121,7 +126,15 @@ try:
                                     if '_max' not in CF_name_file:
                                         continue
 
-                                    if '1_' in ver and 'max_1' not in CF_name_file:
+                                    if '_1_' in ver and 'max_1' not in CF_name_file:
+                                        continue
+
+                                    if '_3_' in ver and \
+                                            (
+                                                    'max_1' not in CF_name_file and
+                                                    'max_2' not in CF_name_file and
+                                                    'max_3' not in CF_name_file
+                                            ):
                                         continue
 
                                     gen_img_count += 1

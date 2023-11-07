@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def getMidRange(valueLen, needLen=1):
     lenStart = int(valueLen / 2 - (needLen - 1) / 2)
     lenEnd = int(valueLen / 2 + (needLen + 1) / 2)
@@ -100,7 +101,8 @@ def getNormalizeValueNew(value, PF_name):
         maxValue = np.max(value)
         minValue = np.min(value)
     """
-
+    # ##############################################################
+    # ##############################################################
     # pe_12_1_DR25_M_
     # 2_
     """
@@ -114,12 +116,109 @@ def getNormalizeValueNew(value, PF_name):
         maxValue = np.max(value)
         minValue = np.min(value)
     """
-
+    # ##############################################################
+    # ##############################################################
     # pe_7_1_DR25_M_librosa_
     # """
     if PF_name == 'mfcc':
         maxValue = 179.1151580810547
         minValue = -620.3335571289062
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    # """
+    # ##############################################################
+    # ##############################################################
+    # orig_12_3_DR25_M_
+    """
+    if PF_name == 'logEnergyFB':
+        maxValue = 9.47574111208784
+        minValue = 0
+    elif PF_name == 'mfcc':
+        maxValue = 183.9878579984648
+        minValue = -27.345572788660732
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    """
+
+    # pe_12_3_DR25_M_
+    """
+    if PF_name == 'logEnergyFB':
+        maxValue = 8.217726325944714
+        minValue = 0
+    elif PF_name == 'mfcc':
+        maxValue = 171.5050046672282
+        minValue = -38.455734882115564
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    """
+
+    # orig_2612_3_DR25_M_
+    """
+    if PF_name == 'logEnergyFB':
+        maxValue = 8.972418036245747
+        minValue = 0
+    elif PF_name == 'mfcc':
+        maxValue = 66.03973734216129
+        minValue = -60.33618198851738
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    """
+
+    # pe_2612_3_DR25_M_
+    """
+    if PF_name == 'logEnergyFB':
+        maxValue = 8.160808881110416
+        minValue = 0
+    elif PF_name == 'mfcc':
+        maxValue = 37.38743922596362
+        minValue = -84.63177421775826
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    """
+    # ##############################################################
+    # pe_12_3_DR25_M_
+    # 2_
+    # """
+    if PF_name == 'logEnergyFB':
+        maxValue = 8.217726325944714
+        minValue = 0.2432301068207155
+    elif PF_name == 'mfcc':
+        maxValue = 171.5050046672282
+        minValue = -39.32222294622575
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    # """
+    # ##############################################################
+    # ##############################################################
+    # ##############################################################
+    # SA2
+    # orig_12_1_DR25_M_
+    """
+    if PF_name == 'logEnergyFB':
+        maxValue = 9.47574111208784
+        minValue = 0
+    elif PF_name == 'mfcc':
+        maxValue = 183.9878579984648
+        minValue = -24.744228356823218
+    else:
+        maxValue = np.max(value)
+        minValue = np.min(value)
+    """
+
+    # pe_12_1_DR25_M_
+    # """
+    if PF_name == 'logEnergyFB':
+        maxValue = 8.309794639297948
+        minValue = 0
+    elif PF_name == 'mfcc':
+        maxValue = 167.5923719668694
+        minValue = -32.14613421845251
     else:
         maxValue = np.max(value)
         minValue = np.min(value)

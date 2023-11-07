@@ -3,42 +3,29 @@ import json
 import numpy as np
 
 sentence_type = 'SA1'
-sentence_type = 'SA2'
+# sentence_type = 'SA2'
 # sentence_type = 'SA'
+sentence_type = 'SX'
 
-ver = 'orig_12_1_DR25_M_'
-ver = 'pe_12_1_DR25_M_'
-# ver = 'orig_2612_1_DR25_M_'
-# ver = 'pe_2612_1_DR25_M_'
-# ver = 'orig_30_1_DR25_M_' # 樣本不足
-# ver = 'pe_30_1_DR25_M_' # 樣本不足
-# ##################################################
-# ver = 'pe_7_1_DR25_M_librosa_'
-# ##################################################
-# ver = 'orig_12_3_DR25_M_'
-# ver = 'pe_12_3_DR25_M_'
-# ver = 'orig_2612_3_DR25_M_'
-# ver = 'pe_2612_3_DR25_M_'
+ver = 'orig_50_DR25_M_'
+# ver = 'pe_50_DR25_M_'
 
 ver += sentence_type + '_'
 
 # ver += '2_'
 
 now_path = r'D:\TIMITDIC_231101'
-data_path = now_path + '_data'
+data_path = now_path + '_data_all_sentence'
 
 ver_name_list = [ver]
 
 for data_set in ['TEST', 'TRAIN']:
 
     # CNJF=CNN_Normalize_JsonFolder, CDF=CNN_Dataset_Folder, PF=ParmFolder, JF=json_file
-    CNJF_path = os.path.join(data_path, data_set, 'cnn_normalize_EMAX')
-    CDF_path = os.path.join(data_path, data_set, 'cnn_dataset_EMAX')
+    CNJF_path = os.path.join(data_path, data_set, 'cnn_normalize_librosa')
+    CDF_path = os.path.join(data_path, data_set, 'cnn_dataset_librosa')
 
-    PF_name_list = ['logEnergyFB', 'mfcc']
-
-    if 'librosa' in ver:
-        PF_name_list = ['mfcc']
+    PF_name_list = ['mfcc']
 
     type_name_list = ['F', 'M']
 

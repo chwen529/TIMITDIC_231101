@@ -12,3 +12,7 @@
 /train_history/pe_12_1_DR25_M_SA1_/*.png
 /train_history/pe_12_1_DR25_M_SA1_2_/*.png
 /train_history/pe_2612_1_DR25_M_SA1_/*.png
+*.png
+*.xml
+*.iml
+*.pyc
