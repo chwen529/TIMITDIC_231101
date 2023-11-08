@@ -4,26 +4,24 @@ from sound_funcMFCC import funcMFCC, PreEmphasis
 import matplotlib.pyplot as plt
 import numpy as np
 import librosa.feature
-from pydub import AudioSegment
-from pydub.silence import split_on_silence
 
 sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
 # sentence_type = 'SX'
 
-ver = 'pe_3_DR25_M_'
-# --------------------------------------------------
+ver = 'orig_50_DR25_M_'
+ver = 'pe_50_DR25_M_'
 
 ver += sentence_type + '_'
 
 gen_img = False
-# gen_img = True
-gen_img_limit = 1
+gen_img = True
+gen_img_limit = 3
 
-source_path = r'D:\TIMITDIC data_split_matlab_SA1_DR25_M\threshold0.03_frameLen100_silentMax300'
+source_path = r'D:\TIMITDIC data'
 now_path = r'D:\TIMITDIC_231101'
-data_path = now_path + '_data_segment'
+data_path = now_path + '_data_CLIPS'
 
 try:
     for data_set in ['TEST', 'TRAIN']:
@@ -31,7 +29,7 @@ try:
         print(data_set)
 
         SF_path = os.path.join(source_path, data_set)
-        MJF_path = os.path.join(data_path, data_set, 'mfcc_json')
+        MJF_path = os.path.join(data_path, data_set, 'mfcc_json_librosa')
 
         PF_name_list = [
             # 'signal',
@@ -49,7 +47,7 @@ try:
         class_name_list = ['DR1', 'DR2', 'DR3', 'DR4', 'DR5', 'DR6', 'DR7', 'DR8']
 
         if 'DR25' in ver:
-            class_name_list = ['DR2', 'DR5']
+            class_name_list = ['DR2', 'CLIPS']
 
         type_name_list = ['F', 'M']
 
@@ -68,6 +66,8 @@ try:
 
             for class_name in class_name_list:
 
+                CF_path = os.path.join(SF_path, class_name)
+
                 json_obj = {
                     'title': 'mfcc_json',
                     'parm': ver + PF_name,
@@ -78,10 +78,8 @@ try:
 
                 for type_name in type_name_list:
 
-                    CF_path = os.path.join(SF_path, type_name, class_name)
-
                     img_path = os.path.join(
-                        data_path, data_set, 'img', ver + PF_name, class_name, type_name
+                        data_path, data_set, 'img_librosa', ver + PF_name, class_name, type_name
                     )
                     img_2d_path = os.path.join(img_path, '2d')
 
@@ -103,24 +101,32 @@ try:
                         # 性別判定
                         if CF_name[0].lower() == type_name[0].lower():
 
-                            # 單一人檔案只取10個
-                            CF_name_file_count = 0
-                            CF_name_file_limit = 5
-                            # 存放這10個音訊的特徵
-                            f_MFCC_parm_list = np.array([])
-
                             # 遍歷單一人檔案，ex.SA1.WAV.wav
                             for CF_name_file in os.listdir(os.path.join(CF_path, CF_name)):
 
-                                if '.wav' in CF_name_file and sentence_type in CF_name_file:
+                                if ('.WAV.wav' in CF_name_file and sentence_type in CF_name_file) or (class_name == 'CLIPS'):
 
-                                    if 'max' in CF_name_file or CF_name_file_count > CF_name_file_limit:
-                                        continue
+                                    gen_img_count += 1
 
                                     AF_path = os.path.join(CF_path, CF_name, CF_name_file)
                                     AF_name, AF_ext = os.path.splitext(AF_path)
 
-                                    if '_20_' in ver:
+                                    if 'orig_50_' in ver:
+                                        shape = 50
+
+                                        y, sr = librosa.load(AF_path)
+                                        f_MFCC_parm = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=shape)
+
+                                    elif 'pe_50_' in ver:
+                                        shape = 50
+
+                                        y, sr = librosa.load(AF_path)
+
+                                        PEsignal = PreEmphasis(y, 0.95)
+
+                                        f_MFCC_parm = librosa.feature.mfcc(y=PEsignal, sr=sr, n_mfcc=shape)
+
+                                    elif '_20_' in ver:
                                         shape = 20
 
                                         y, sr = librosa.load(AF_path)
@@ -130,8 +136,8 @@ try:
                                         # default n_mfcc = 20
                                         f_MFCC_parm = librosa.feature.mfcc(y=PEsignal, sr=sr)
 
-                                    elif '_3_' in ver:
-                                        shape = 3
+                                    elif '_13_' in ver:
+                                        shape = 13
 
                                         y, sr = librosa.load(AF_path)
 
@@ -149,59 +155,49 @@ try:
                                         print(CF_name_file.split('.')[0])
                                         continue
 
-                                    CF_name_file_count += 1
+                                    id_list.append(ver + CF_name + '_' + CF_name_file.split('.')[0])
+                                    shape_list.append(f_MFCC_parm.shape)
+                                    value_list.append(f_MFCC_parm.tolist())
 
-                                    if f_MFCC_parm_list.shape[0] == 0:
-                                        f_MFCC_parm_list = f_MFCC_parm
-                                    else:
-                                        f_MFCC_parm_list = np.vstack((f_MFCC_parm_list, f_MFCC_parm))
+                                    if gen_img and gen_img_count <= gen_img_limit:
+                                        # ########## 生成圖片 ##########
+                                        plt.clf()
+                                        ax = plt.subplot()
 
-                            if len(f_MFCC_parm_list) < CF_name_file_limit:
-                                continue
+                                        # 一維
+                                        if PF_name in ['signal', 'PEsignal']:
+                                            ax.plot(f_MFCC_parm.tolist())
+                                        else:
+                                            ax.plot(f_MFCC_parm.flatten())
 
-                            gen_img_count += 1
+                                        plt.savefig(
+                                            os.path.join(
+                                                img_path,
+                                                CF_name + '_' + CF_name_file.replace(
+                                                    '.WAV.wav' if class_name != 'CLIPS' else '.wav', '.png'
+                                                )
+                                            ),
+                                            bbox_inches='tight',
+                                            pad_inches=0
+                                        )
 
-                            f_MFCC_parm_list = np.array(f_MFCC_parm_list)
+                                        plt.clf()
+                                        ax = plt.subplot()
 
-                            id_list.append(ver + CF_name + '_' + 'SA1')
-                            shape_list.append(f_MFCC_parm_list.shape)
-                            value_list.append(f_MFCC_parm_list.tolist())
+                                        # 二維
+                                        if PF_name not in ['signal', 'PEsignal']:
+                                            ax.imshow(f_MFCC_parm.tolist(), cmap='hsv')
 
-                            if gen_img and gen_img_count <= gen_img_limit:
-                                # ########## 生成圖片 ##########
-                                plt.clf()
-                                ax = plt.subplot()
-
-                                # 一維
-                                if PF_name in ['signal', 'PEsignal']:
-                                    ax.plot(f_MFCC_parm_list.tolist())
-                                else:
-                                    ax.plot(f_MFCC_parm_list.flatten())
-
-                                plt.savefig(
-                                    os.path.join(
-                                        img_path,
-                                        CF_name + '_SA1.png'
-                                    ),
-                                    bbox_inches='tight',
-                                    pad_inches=0
-                                )
-
-                                plt.clf()
-                                ax = plt.subplot()
-
-                                # 二維
-                                if PF_name not in ['signal', 'PEsignal']:
-                                    ax.imshow(f_MFCC_parm_list.tolist(), cmap='hsv')
-
-                                    plt.savefig(
-                                        os.path.join(
-                                            img_2d_path,
-                                            CF_name + '_SA1_2d.png'
-                                        ),
-                                        bbox_inches='tight',
-                                        pad_inches=0
-                                    )
+                                            plt.savefig(
+                                                os.path.join(
+                                                    img_2d_path,
+                                                    CF_name + '_' + CF_name_file.replace(
+                                                        '.WAV.wav' if class_name != 'CLIPS' else '.wav', '_2d.png'
+                                                    )
+                                                ),
+                                                bbox_inches='tight',
+                                                pad_inches=0
+                                            )
 
                     json_obj[type_name] = {
                         'type': type_name,
