@@ -93,7 +93,7 @@ try:
 
                         value = np.array(orig_json_obj[type_name]['value'][people])
 
-                        if 'orig_50_' in ver or 'pe_50_':
+                        if 'orig_50_' in ver or 'pe_50_' in ver:
                             needLen = 50
 
                             midValue = getMidValue(value, needLen, outVer)
