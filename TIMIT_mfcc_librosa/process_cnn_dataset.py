@@ -5,10 +5,12 @@ import numpy as np
 sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
-sentence_type = 'SX'
+# sentence_type = 'SX'
 
 ver = 'orig_50_DR25_M_'
-# ver = 'pe_50_DR25_M_'
+ver = 'pe_50_DR25_M_'
+# --------------------------------------------------
+ver = 'pe_20_DR25_M_'
 
 ver += sentence_type + '_'
 

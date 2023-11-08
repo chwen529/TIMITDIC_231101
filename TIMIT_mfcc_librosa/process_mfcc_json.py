@@ -3,15 +3,17 @@ import json
 from sound_funcMFCC import funcMFCC, PreEmphasis
 import matplotlib.pyplot as plt
 import numpy as np
-import librosa
+import librosa.feature
 
 sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
-sentence_type = 'SX'
+# sentence_type = 'SX'
 
 ver = 'orig_50_DR25_M_'
 ver = 'pe_50_DR25_M_'
+# --------------------------------------------------
+ver = 'pe_20_DR25_M_'
 
 ver += sentence_type + '_'
 
@@ -125,6 +127,16 @@ try:
                                         PEsignal = PreEmphasis(y, 0.95)
 
                                         f_MFCC_parm = librosa.feature.mfcc(y=PEsignal, sr=sr, n_mfcc=shape)
+
+                                    elif '_20_' in ver:
+                                        shape = 20
+
+                                        y, sr = librosa.load(AF_path)
+
+                                        PEsignal = PreEmphasis(y, 0.95)
+
+                                        # default n_mfcc = 20
+                                        f_MFCC_parm = librosa.feature.mfcc(y=PEsignal, sr=sr)
 
                                     else:
                                         shape = 50

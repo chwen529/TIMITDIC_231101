@@ -9,10 +9,12 @@ import openpyxl
 sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
-sentence_type = 'SX'
+# sentence_type = 'SX'
 
 ver = 'orig_50_DR25_M_'
-# ver = 'pe_50_DR25_M_'
+ver = 'pe_50_DR25_M_'
+# --------------------------------------------------
+ver = 'pe_20_DR25_M_'
 
 ver += sentence_type + '_'
 
@@ -93,6 +95,11 @@ try:
 
                         if 'orig_50_' in ver or 'pe_50_':
                             needLen = 50
+
+                            midValue = getMidValue(value, needLen, outVer)
+
+                        elif '_20_' in ver:
+                            needLen = 20
 
                             midValue = getMidValue(value, needLen, outVer)
 
