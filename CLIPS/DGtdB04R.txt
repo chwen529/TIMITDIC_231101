@@ -1,0 +1,1268 @@
+TEXT_inf.
+
+MAT:            td
+MAP:            B
+TRM:
+Ndl:            04
+Ntr:        
+Nls:
+REG:            R
+
+
+SPEAKERS_inf.
+
+INp1:       G. M., M, 28, Roma, spontaneo, fluente
+INp2:       G. F., F, 24, Roma, spontaneo, fluente 
+
+
+RECORDING_inf.
+
+TYP:        DAT
+LOC:        Roma
+DAT:        09/12/00
+DUR:        15.28,002
+CON:        buone
+
+
+TRANSCRIPTION_inf.
+
+DAT:        12/06/01        
+CMT:        
+Nst:        336
+
+
+
+p2#1:  <inspiration> va' allora Giordano , <inspiration> senti <sp> <eeh> allora il <ehm> <inspiration> io c'ho una barca <sp> sul sul
+       mare , #<p1#2> no ? #
+
+
+p1#2:  #<p2#1> sullo sfondo ?#
+
+
+p2#3:  sì #<p1#4> <sp> <inspiration> <sp> <eeh>#
+
+
+p1#4:  #<p2#3> una barca a vela#
+
+
+p2#5:  <eh!> #<p1#6> <sp> c'è una<aa> <ehm> <sp># una<aa> bandierina
+
+
+p1#6:  #<p2#5> sì <sp># sì #<p2#7> sopra sì / però da che parte# sta rigirata 'a tua ? 
+
+
+p2#7:  #<p1#6> sopra <sp> sì# <sp> la des+ <sp> a destra
+
+
+p1#8:  cioè <sp> alla tua destra , #<p2#9> quindi s+#
+
+
+p2#9:  #<p1#8> sì , a# destra
+
+
+p1#10:  se {<NOISE> stesse} così <sp> messa così
+
+
+<sp>
+
+
+p2#11:  no no no <sp> Giordano , penso che siano uguali le vignette <lp> #<p1#12> è a destra# cioè la punta <sp>  è<ee> verso
+        l'esterno <sp> della vignetta <sp> <inspiration> s+ la barchetta sta a destra del bambino
+
+
+p1#12:  {[whisperimg] #<p2#11> no#} <lp> da <sp> però dalla parte tua <lp> #<p2#13> cioè come la vedi tu#
+
+
+p2#13:  #<p1#12> Giordano , tu# come ce / tu come lo vedi il<ll> <eeh> <sp> #<p1#14> il disegno , scusami#
+
+
+p1#14:  #<p2#13> io c'ho <lp> no , io# c'ho <sp> io<oo> / come la vedo io / c'ho a destra questa barca a vela
+
+
+p2#15:  <eh!> <sp> e a sinistra il bambino
+
+
+p1#16:  sì
+
+
+p2#17:  <eh!> <sp> allora ce l'abbiamo #<p1#18> uguale#
+
+
+p1#18:  #<p2#17> sì#
+
+
+p2#19:  allora <sp> <eeh> il <ehm> / la barchetta sta sul<ll> sul mare #<p1#20> all'orizzonte#
+
+
+p1#20:  #<p2#19> sì <sp># sì
+
+
+<sp>
+
+
+p2#21:  e c'ha la ba+ <ll>la bandierina girata verso destra <lp> la punta della bandiera è verso destra
+
+
+p1#22:  no , per me è verso #<p2#23> sinistra#
+
+
+p2#23:  #<p1#22> e allora# è una differenza questa , penso <lp> è verso una n+ <eeh> la punta della bandiera sta verso la
+        nuvola <sp> e che<ee> a metà praticamente che <ehm>
+
+
+p1#24:  no , io ce l'ho<oo> puntata verso la nuvola che sta sopra
+
+
+<sp>
+
+
+p2#25:  allora no , allora questa è una differenza ed è una
+
+
+p1#26:  okay
+
+
+<sp>
+
+
+p2#27:  {[whispering] quante so le differenze non c'è scritto <sp> #<p1#28> vabbè#} <inspiration>
+
+
+p1#28:  #<p2#27> no#
+
+
+p2#29:  allora poi <sp> <ehm> <sp> allora c'è una specie di uovo sulla
+
+
+p1#30:  sì , #<p2#31> per terra sì sì#
+
+
+p2#31:  #<p1#30> su <ehm> <sp> <eh> okay# <sp> ci sono tre palline / tre palle nere <inspiration>
+
+
+p1#32:  sì
+
+
+<lp>
+
+
+p2#33:  <eeh> le<ee> <ehm> <sp> le palle , quella sopra <sp> e quella sotto che sta per  terra sono collegate da<aa> due linee
+
+
+<lp>
+
+
+p1#34:  due linee , sì #<p2#35> perfetto <lp> vabbè# non conto la terza che sarebbe l'uovo
+
+
+p2#35:  #<p1#34> sì <sp> okay <inspiration> <lp># non conti la #<p1#36> terza ?# 
+
+
+p1#36:  #<p2#35> cioè# #<p2#37> le <sp> so' due linee perché poi / no me sembrano#
+
+
+p2#37:  #<p1#36> sì la terza , sì sarebbe il bordo# #<p1#38> dell'uovo#
+
+
+p1#38:  #<p2#37> l'uovo sì# <sp> #G#39> okay#
+
+
+p2#39:  #<p1#38> poi# , <eeh> l<ll>+ <sp> in quella che sta<aa> <ehm> per terra , di #<p1#40> palla <inspiration># ci sono
+        due linee <sp> se+ / che partono da questa<aa> da questa #<p1#40> palla# 
+
+
+p1#40:  #<p2#39> sì# <lp> #<p2#39> che escono <sp> fuori# #<p2#41> da questa palla <sp> sì#
+
+
+p2#41:  #<p1#40> sì , che escono fuori# <sp> allora questo {[whispering] #<p1#42> okay#}
+
+
+p1#42:  #<p2#41> però# #<p2#43> non si collegano all'altra palla#
+
+
+p2#43:  #<p1#42> no , non si# #<p1#44> collegano# 
+
+
+p1#44:  #<p2#43> perfetto#
+
+
+<sp>
+p2#45:  poi vediamo un po' , allora vediamo il bambino
+
+
+p1#46:  sì
+
+
+p2#47:  al+ il bambino <sp> ce l'ha l'ombelico {<laugh> il tuo ?}
+
+
+p1#48:  sì sì ce l'ha l'ombelico
+
+
+p2#49:  <eh!> <sp> #<p1#50> poi<ii>#
+
+
+p1#50:  #<p2#49> c'ha un# segnetto<oo> poi al petto
+
+
+p2#51:  sì <sp> tipo sterno insomma , #<p1#52> quella roba lì#
+
+
+p1#52:  #<p2#51> sì<ii>#
+
+
+p2#53:  poi<ii> le ginocchia , i puntini sulle ginocchia #<p1#54> ce l'ha ?#
+
+
+p1#54:  #<p2#53> sì , ce l'ha<aa> , c'ha anche<ee># i puntini su<uu> / alla fine del piede <lp> #<p2#55> <tongue-click> cioè alla
+        fine del piede#
+
+
+p2#55:  #<p1#54> sì<ii> il<ll> <eh> la# caviglia
+
+
+<sp>
+
+
+p1#56:  sì sì
+
+
+<sp>
+
+
+p2#57:  <tongue-click> <sp> tutte e due ?
+
+
+p1#58:  sì #<p2#59> sì sì# <sp> uno<oo> è<ee> più<uu> <inspiration> #<p2#59> uno#
+
+
+p2#59:  #<p1#58> <mh># <lp> #<p1#58> sì# <sp> più lungo
+
+
+p1#60:  uno è più lungo che va #<p2#61> un po' verso su , quell'altro non va verso su#
+
+
+p2#61:  #<p1#60> sì <lp> okay# <inspiration> allora aspetta <sp> <eeh> <vocal> la chiusura della {<NOISE> papera} come ce l'hai ?
+
+
+<sp>
+
+
+p1#62:  la chiusura della papera ?
+
+
+p2#63:  <eh!>
+
+
+<sp>
+
+
+p1#64:  in che senso ?
+
+
+p2#65:  all+ <sp> la papera<aa> / il bambino ride o piange ? <sp> cioè o è triste ?
+
+
+<sp>
+
+
+p1#66:  triste
+
+
+p2#67:  <eh> e pure a me <inspiration> il sopraciglio ce l'ha<aa> ?
+
+
+p1#68:  sì <sp> uno #<p2#69> solo#
+
+
+p2#69:  #<p1#68> uno solo# <sp> #<p1#70> <ehm># <sp> gli occhi guardano in giù ?
+
+
+p1#70:  #<p2#69> sì# <lp> sì
+
+
+<sp>
+
+
+p2#71:  poi<ii> <sp> <ehm> <lp> allora <sp> <tongue-click> quante palline c'ha la papera ? <sp> {[whispering] uno , due , tre , quattro e
+        cinque}
+
+
+<sp>
+
+
+p1#72:  uno , due , tre , quattro e #<p2#73> cinque# <sp> sì <inspiration> #<p2#73> <eh>#
+
+
+p2#73:  #<p1#72> <mh># <sp> <inspiration> <eeh> #<p1#72> ride# la papera ?
+
+
+<lp>
+
+
+p1#74:  boh <sp> non saprei che #<p2#75> dirti#
+
+
+p2#75:  #<p1#74> cioè<ee># <eeh> c'ha<aa> <inspiration> {[whispering] <ehm> <vocal> come ti faccio a dire ?}
+        <inspiration> <lp> ha #<p1#76> un<nn>#
+
+
+p1#76:  <tongue-click> #<p2#75> cioè c'ha# il becco ora la parte sopra all'insù
+
+
+<sp>
+
+
+p2#77:  sì , un po' all'insù 
+
+
+p1#78:  e la parte sotto che <ehm> / è più corta
+
+
+p2#79:  è chiuso comunque il #<p1#80> becco#
+
+
+p1#80:  #<p2#79> sì# sì
+
+
+p2#81:  <mh> <inspiration> sì <eeh> <sp> la papera<aa> <vocal> la<aa> la pupilla dove ce l'ha ? <inspiration> verso giù
+
+
+p1#82:  sì
+
+
+p2#83:  <mh> <sp>#<p1#84> <inspiration>#
+
+
+p1#84:  #<p1#83> sta giusta#
+
+
+<sp>
+
+
+p2#85:  poi <sp> <breath> <sp> nie+ <sp> i pantaloncini del bambino ?
+
+
+p1#86:  allora , sì hanno<oo> / si ce l'ha / si vede / si vedono dei puntini davanti
+
+
+p2#87:  sì <sp> sotto ci sono <sp> escono fuori dalla #<p1#88> cosa dal#
+
+
+p1#88:  #<p2#87> no# 
+
+
+p2#89:  <eh> nemmeno a me <inspiration> <eeh> <breath>
+
+
+<sp>
+
+
+p1#90:  vediamo un #<p2#91> po'#
+
+
+p2#91:  #<p1#90> la# chiusura c'ha una specie di manico ?
+
+
+<sp>
+
+
+p1#92:  quale chiusura ?
+
+
+p2#93:  <inspiration> la chiusura della papera
+
+
+p1#94:  no <sp> cioè sì c'ha<aa> <mh> <sp> una specie di tappo
+
+
+p2#95:  sì #<p1#96> c'ha un ta+ tappo <sp># , sì
+
+
+p1#96:  #<p2#95> di funghetto# <lp> c'ha prima una base un po' altina
+
+
+p2#97:  <eh> {[whispering]#<p1#98> <sp> okay#}
+
+
+p1#98:  #<p2#97> poi un funghetto# e poi una specie pe+ / di orecchio sembra <lp> #<p2#99> un gancetto#
+
+
+p2#99:  <laugh> <sp> #<p1#98> <inspiration> <sp> sì<ii># 
+
+
+<sp>
+
+
+p1#100: sì
+
+
+p2#101:  <eh> la la vela c'ha <tongue-click> <vocal> le <ehm> le <ehm> <sp> ci sono delle #<p1#102> lineette <sp> boh#
+
+
+p1#102:  #<p2#101> <tongue-click> lineette# sono cinque
+
+
+p2#103:  <vocal> uno , due , tre , quattro e cinque sì
+
+
+<sp>
+
+
+p1#104:  sono alle prime<ee> due <sp> no una / la prima è un po' più lunga de tutte , la seconda un #<p2#105> po'
+         di <sp> meno# <sp> più pi+ / vabbè
+
+
+p2#105:  #<p1#104> sì sì sì# <mhmh> <sp> <inspiration> poi <sp> le nuvole , quindi son due <lp> #<p1#106> giusto?#
+
+
+p1#106:  #<p2#105> sì# <sp> sì
+
+
+p2#107:  <ehm> l+ / quella di sinistra , #<p1#108> c'ha<aa># <sp> dei trattini ? <sp> un po' come le vel+ le/ i
+         #<p1#108> trattini della vela ? <lp> sì#
+
+
+p1#108:  #<p2#107> sì# <lp> #<p2#107> sì sì sono quattro# sfumati
+
+
+<sp>
+
+
+p2#109:  {[whispering] 'ndo stanno ste li+} <inspiration> <ehm> 
+
+
+p1#110:  e<ee> poi <sp> la nuvola a te come ti fin+ cioè<ee> <lp> ti finisce<ee> come se ci fossero<oo> <sp> cioè
+         <sp> co+ <lp> come posso dire alla fine<ee> <ehm>
+
+
+p2#111:  quale nuvola ?
+
+
+p1#112:  la nuvola quella che abbiamo visto le lineette
+
+
+<sp>
+
+
+p2#113:  <eh> <lp> #<p1#114> a pun+#
+
+
+p1#114:  co' 'e lineette <sp> <eeh> #<p2#113> c'ha<aa># <sp> no vabbè penso che la nuvola non
+
+
+<sp>
+
+
+p2#115:  a punta? 
+
+
+p1#116:  no , non è a punta <lp> c'ha<aa> / fini+ / cioè la part+ fini+/ sì la pa+ la parte finale sì è a #<p2#117> punta# <sp> c'ha
+         come<ee> come se fossero due dita alla fine
+
+
+<sp>
+
+
+p2#117: #<p1#116> <eh!># <lp> due dita ?
+
+
+p1#118:  cioè due dita , due <ehm> <sp> no , ma non penso ci sia là 'a #<p2#119> cosa#
+
+
+p2#119:  #<p1#118> no# aspetta , due dita che #<p1#120> vuol dire , {[whispering] Giorda' ?}#
+
+
+p1#120:  #<p2#119> no due dita# <sp> <tongue-click> <inspiration> {[whispering] come posso dirti} <sp> <tongue-click> 'na beh a forma de
+         nuvola<aa> <sp> niente <sp> #<p2#121> non è che c'ha#
+
+
+p2#121:  #<p1#120> <mh> <sp> vabbè# <sp> <inspiration> senti <eeh> <inspiration> <eeh> s+ / un po' sopra all'uovo c'è una specie
+         di sasso , {[whispering] non so che cosa sia #<p1#122> questa cosa#}
+
+
+p1#122:  #<p2#121> un po' più sopra l'uovo ?#
+
+
+p2#123:  <eh!>
+
+
+p1#124:  <eeh> la #<p2#125> sulla destra# ?
+
+
+p2#125:  #<p1#124> non# <sp> sì #<p1#126> sulla destra# 
+
+
+p1#126:  #<p2#125> con tre segnetti ?#
+
+
+p2#127:  sì con <sp> no , due segnetti <lp> quel<ll> / attaccato al bordo no  #<p1#128> della figura#
+
+
+p1#128:  #<p2#127> sì attaccato al bordo# io c'ho<oo>
+
+
+p2#129:  <eh!> #<p1#130> son due però#
+
+
+p1#130:  <inspiration> <sp> #<p2#129> una specie di / sembra un# / spero che si un sasso #<p2#131> o è# una<aa> un
+         #<p2#131> onda#
+
+
+p2#131:  #<p1#130> <eh!># <sp> <tongue-click> <sp> #<p1#130> vabbè# è uguale <sp> comunque<ee> quest+  / c'ha due<ee> due
+         segnetti però
+
+
+p1#132:  io ce n'ho tre
+
+
+<sp>
+
+
+p2#133:  tre ?
+
+
+<sp>
+
+
+p1#134:  sì
+
+
+p2#135:  co+ <sp>/ ma tu hai contato anche il bordo ? no
+
+
+<sp>
+
+
+p1#136:  no io non penso che questo sia attaccato al bordo , il terzo segnetto <sp> no c'è uno spazietto , quindi
+         secondo me sono tre
+
+
+<lp>
+
+
+p2#137:  <eeh> #<p1#138> <ehm>#
+
+
+p1#138:  #<p2#137> a te# so due ?
+
+
+p2#139:  <eh> a me sembrano due <lp> <inspiration>
+
+
+p1#140: io ce n'ho una, è una lineetta che è proprio attaccata al bordo e che st+ / <ee>esce un po' fuori alla fine fa una
+         curvetta <lp> #<p2#141> e si# stacca quindi dal bordo e poi due normali
+
+
+<lp>
+
+
+p2#141: #<p1#140> <mh># <lp> boh <sp> {[whispering] forse è venuta male , boh la figura} <sp> non so <sp> io c'è un
+         qualche cosa che mi fa capire <lp> boh <lp>  non so, senti , e poi sotto al sasso
+         ci sono tre lineette ?
+
+<sp>
+
+
+p1#142:  sotto al sasso ?
+
+
+p2#143:  <eh!>
+
+
+<lp>
+
+
+p1#144:  sotto però m+ <sp> spa+ <sp>/ #<p2#145> pare+#
+
+
+p2#145:  #<p1#144> sotto / accanto all#'uovo
+
+
+p1#146:  parecchio / sulla destra dell'uovo
+
+
+p2#147:  sì
+
+
+p1#148:  sì , #<p2#149> tre lineette#
+
+
+p2#149:  #<p1#148> okay# <inspiration> senti , poi ci sono <sp> <mh> allora <inspiration> <eeh> le onde , no ?
+
+
+p1#150:  sì
+
+
+p2#151: allora <lp> <tongue-cllick> allora prendi in considerazione la barca <sp> #<p1#152> come# punto di riferimento
+         #<p1#152> allora# sulla destra e sulla sinistra io c'ho due due <sp> onde  <sp> sulla stessa linea
+
+
+p1#152:  #<p2#151> sì# <sp> #<p2#151> sì <lp># destra e sinistra , due onde , sì
+
+
+p2#153:  sì
+
+
+
+p1#154:  sì
+
+
+p2#155:  poi <sp> c'è un onda sotto
+
+
+p1#156:  sì
+
+
+<sp>
+
+
+p2#157:  <eeh> <sp> quasi in mezzo a queste due #<p1#158> insomma#
+
+
+p1#158:  #<p2#157> sì , brava#
+
+
+<sp>
+
+
+p2#159:  <inspiration> e poi <sp> sotto ce ne stanno <sp> tre
+
+
+p1#160:  sì , però #<p2#161> una<aa>#
+
+
+p2#161:  #<p1#160> una# grande , una piccola , una #<p1#162> grande#
+
+
+p1#162:  #<p2#161> sì#
+
+
+p2#163:  okay , {[whispering] allora più o meno penso siamo #<p1#164> uguali#}
+
+
+p1#164:  #<p2#163> sì#
+
+
+p2#165:  <inspiration> senti , l'orecchio del bambino ?
+
+
+<sp>
+
+
+p1#166:  <eeh> <sp> sporgente un po' dai capelli <eh>
+
+
+p2#167:  <eh> sporge un po' dai capelli <sp> e<ee> poi<ii> <lp> <mh> <lp> boh <sp> <inspiration> <ehm> è<ee> <sp> {<NOISE> tondo}
+
+
+p1#168:  sì sì sì
+
+
+p2#169:  <mh> <inspiration> sotto i capelli ci sono sotto l'orecchio ?
+
+
+p1#170:  sì , #<p2#171> <sp> po' di capelli sì# , capelli neri sì
+
+
+p2#171:  {[whispering] #<p1#170> okay#} <lp> <eeh> la spalla sinistra del bambino è leggermente più<uu>
+         #<p1#172> alta del<ll> <sp> sì#
+
+
+p1#172:  #<p2#171> alta della destra , sì# <sp> sì
+
+
+<sp>
+
+
+p2#173:  #<p1#174> poi <inspiration> <ah> le dita# del bambino , dei piedi ? <sp> uno , due , tre tre lineette più il pollice
+
+
+<lp>
+
+
+p1#174:  {[whispering] #<p2#173> sì <sp> vediamo un po' che se pò [dialect] #} <lp> <tongue-click> aspetta<aa> <sp> tre lineette ?
+
+
+p2#175:  <mhmh> 
+
+
+p1#176:  cioè <sp> ma <sp> una lineetta<aa> sporge<ee> proprio dal bordo ?
+
+
+<sp>
+
+
+p2#177:  <inspiration> sì , è attaccata <sp> #<p1#178> però <sp> son tre#
+
+
+p1#178:  #<p2#177> {[whispering] <unclear>} <sp> sì tre lineette più pollice grande# #<p2#179> <sp># <inspiration>
+         #<p2#179> invece l'altro# 
+
+
+p2#179: # <p1#178> <eh!># <inspiration> #<p1#178> c'è l'ombra# del bam+ ? <sp> c'è l'ombra del<ll> <eeh> de+
+
+
+p1#180:  del piede #<p2#181> dietro / al piede<ee> dove<ee> c'erano queste tre lineette# sì , c'è un po' <mh> al
+         tallone
+
+
+p2#181:  #<p1#180> die+ / sì <sp> <eh!> <sp> sì# <lp> <mh>
+
+
+<sp>
+
+
+p1#182:  invece il piede <sp> <tongue-click> l'altro piede , cioè si vede solo il pollice
+
+
+<sp>
+
+
+p2#183:  si vede solo il #<p1#184> pollice# ?
+
+
+p1#184:  #<p2#183> sì#  
+
+
+<sp>
+
+
+p2#185:  no a me mi si vede tutto , {[whispering] Giorda'} <sp> e vai #<p1#186> un altro allora ?#
+
+
+p1#186:  #<p2#185> l'altro piede aspetta# io dico il piede<ee> <ehm> <breathe> non quello #<p2#187> attaccato al
+         bordo <sp> il piede destro sì , brava#
+
+
+p2#187:  #<p1#186> il piede destro <sp> il piede destro <sp> non ti si# vede ? 
+
+
+p1#188:  si vede solo il pollice #<p2#189> a me#
+
+
+p2#189:  #<p1#188> no# invece a me mi si vede tutto quindi #<p1#190> un'altra# <sp> e quindi son due <sp>
+         {[whispering] #<p1#190> mamma# che fatica !}
+
+
+p1#190:  #<p2#189> perfetto# <sp> #<p2#189> sì#
+
+
+p2#191:  poi <sp> <ehm>
+
+
+p1#192:  senti , sulla<aa> <sp> in<nn> <sp> al bordo sulla / proprio a sinistra attaccato al bordo
+
+
+p2#193:  <eh?>
+
+
+p1#194:  penso che sia un'onda <sp> <eeh> la prima <sp> è proprio<oo> <sp> 'na bella curvetta <sp> e
+         poi l'onda <lp> co sotto uno due tre <sp>#<p2#195> quattro lineette#
+
+
+p2#195:  #<p1#194> quattro lineette , sì# #<p1#196> <sp># penso sia la sabbia {<laugh> sinceramente} però
+         #<p1#196> non so#
+
+
+p1#196:  #<p2#195> sì# <lp> #<p2#195> sì#
+
+
+p2#197:  <inspiration> vabbè <sp> poi
+
+
+<sp>
+
+
+p1#198:  <mh> <lp> la li+ / <ah> <sp> sulla ciambella
+
+
+p2#199:  <eh!> <sp> <inspiration> <ah!> sì
+
+
+p1#200:  cioè <sp> <eeh> sotto
+
+
+p2#201:  #<p1#202> <eh?>#
+
+
+p1#202:  #<p2#201> la parte# sotto <sp> c'è una linea  #<p2#203> <sp># #<p2#203> che ni+ / ini+
+         *ninea# <sp> poi
+
+
+p2#203:  #<p1#202> <mh># <sp> #<p1#204> più lunga#
+
+
+p1#204:  no , corta la prima <sp> venendo da sinistra
+
+
+p2#205:  <ah!> da sinistra quindi a sinistra della palla ? <sp> #<p1#206> praticamente a sinistra di quel
+         coso nero#
+
+
+p1#206:  #<p2#205> sì <sp> sì <sp> sì <sp> sì# <sp> sì
+
+
+p2#207:  sì <sp> c'è #<p1#208> una linea#
+
+
+p1#208:  #<p2#207> allora , poi# c'è una linea<aa> un pochino più leggermente <unclear> co' sopra due lineette
+
+
+<sp>
+
+
+p2#209:  aspetta , sulla sinistra della palla mi stai dicendo ?
+
+
+p1#210:  sì , #<p2#211> iniziando da#
+
+
+p2#211:  #<p1#210> no , io ce# n'ho solo una #<p1#212> di<ii>#
+
+
+p1#212:  #<p2#211> aspetta# , aspetta <sp> allora , partendo dal becco scendi giù
+
+
+p2#213:  <tongue-click> <eh> ! <sp> okay
+
+
+p1#214:  poi ce sta una #<p2#215> lineetta#
+
+
+p2#215:  #<p1#214> sì# <lp> #<p1#216> che#
+
+
+<sp>
+
+
+p1#216:  poi <sp> #<p2#215> dopo# continua un'altra lineetta <sp> linea <inspiration> un po' più lunga di quella
+         precedente <sp> con due lineette sopra , una piccola e una grande
+
+
+<sp>
+
+
+p2#217:  no , mi sa che c'è qualcosa che non va , {[whispering] aspetta un attimo} #<p1#218> <inspiration>#
+
+
+p1#218:  #<p2#217> <mh>#
+
+
+p2#219:  allora , <ehm> <inspiration> allora , la prima lineetta , quella che parti dal becco e vai giù <inspiration> che
+         finisce praticamente in una palla nera , no ?
+
+
+p1#220:  brava !
+
+
+p2#221:  <eh!> <sp> e #<p1#222> quindi#
+
+
+p1#222:  #<p2#221> la terza# palla nera
+
+
+<sp>
+
+
+p2#223:  sì <sp> partendo dal becco #<p1#224> <inspiration># <eh!> <sp> e quindi quella sta sola a me
+
+
+p1#224:  #<p2#223> sì# <lp> sì <sp> una lineetta , #<p2#225> poi so+ / poi continua#
+
+
+p2#225:  #<p1#224> <eh!> <sp> poi <sp> alla destra# della #<p1#224> palla#
+
+
+p1#226:  #<p2#225> sì<ii># <sp> #<p2#227> c'è una linea# più lunga con sopra due lineette
+
+
+p2#227:  #<p1#226> ce n'è u+# <lp> okay sì
+
+
+<sp>
+
+
+p1#228:  {[whispering] <unclear>} poi
+
+
+p2#229:  e sono<oo> , queste due lineette come sono ? <sp> #<p1#230> a te ?#
+
+
+p1#230:  <vocal> #<p2#229> quella sopra# sotto <sp> lunga , sopra piccola piccola
+
+
+<lp>
+
+
+p2#231:  allora , quindi c'è la linea grossa <sp> <vocal> quindi in <sp> in tutto son tre <sp> #<p1#232> le lineette <sp< <vocal> <sp># a destra della
+         palla #<p1#232> <inspiration># <sp> #<p1#232> <eeh>#
+
+
+p1#232:  #<p2#231> sì <sp> sì <NOISE># <lp> #<p2#231> <tongue-click> sì# <sp> #<p2#231> una più# lunga , sopra ce sono una<aa> <mh>
+         corta e una ancora più piccola sopra
+
+
+<sp>
+
+
+p2#233:  okay , sì
+
+
+p1#234:  perfetto ! <inspiration> poi <sp> non c'è più la lineetta , c'è la #<p2#235> mano#
+
+
+p2#235:  #<p1#234> sì# <sp> e #<p1#236> poi c'è un'altra linea# <sp> okay
+
+
+p1#236:  #<p2#235> poi c'è 'n'altra linea# <sp> poi c'è 'n'altra volta la palla
+
+
+p2#237:  e poi c'è #<p1#238> 'n altro pezzettino#
+
+
+p1#238:  #<p2#237> e poi 'na linea , sì# piccolissima
+
+
+p2#239:  sì #<p1#240> <inspiration> senti# , e invece il buco della ciambella ? come<ee> 
+
+p1#240:  #<p2#239> è uguale# <lp> il buco ?
+
+
+p2#241:  <eh> sì insomma , dove entra / dove sta #<p1#242> dentro il bambino#
+
+
+p1#242:  #<p2#241> sì# <sp> #<p2#243> <eh!>#
+
+
+p2#243:  #<p1#242> <inspiration> allora# <eeh> {[whispering] e qua è difficile però} <lp> allora , c'è praticamente <sp> al bordo della ciambella , no ?
+
+
+p1#244:  #<p2#245> sì#
+
+
+p2#245:  #<p1#244> c'è una# specie di arco <lp> giusto ?
+
+
+p1#246:  arco ?
+
+
+p2#247:  sì , insomma è il<ll> buco <inspiration> <eeh> dove entra dentro il #<p1#248> bambino#
+
+
+p1#248:  #<p2#247> <inspiration># sì <sp> #<p2#249> sì una specie di arco sì a forma#
+
+
+p2#249:  #<p1#248> <vocal> c'è una specie di <aa>arco <sp> <eh># <sp> e poi dopo c'è un pezzettino
+
+
+p1#250:  sia a destra che a #<p2#251> sinistra#
+
+
+p2#251: #<p1#250> che s+# / <sp> sì <sp> sì #<p1#252> che<ee> <sp> a sinistra va sulla <sp> sulla sinistra <sp> sulla destra#
+
+
+p1#252:  #<p2#251> però a sinistra <sp> <eh> <sp> è più lungo <sp> a destra# <sp> è più #<p2#253>corto# <sp> #<p2#253>
+         <mh>#
+
+
+p2#253:  #<p1#252> sì# <sp> ecco #<p1#252> facciamo così# <eh> <inspiration> <lp> poi ?
+
+
+p1#254: poi c'ha sulla<aa> <sp> <tongue-click> sotto la spalla<aa> quella che sta più giù , #<p2#255> ci
+         sono due lineette ?#
+
+
+p2#255:  #<p1#254> <ah!> sì <sp># sì
+
+
+p1#256:  <mh>
+
+
+<sp>
+
+
+p2#257:  <mh> 
+
+
+<sp>
+
+
+p1#258:  il mare<ee> il mare<ee> alla fine <sp> è dritto ? <sp> hai visto ? dietro la<aa> / la barca a vela
+
+
+p2#259:  sì 
+
+
+p1#260:  allora è dritto ?
+
+
+p2#261:  sì
+
+
+p1#262:  la linea è dritta ?
+
+
+p2#263:  sì sì
+
+
+p1#264:  <mmh> <NOISE>
+
+
+p2#265:  <inspiration> a che altezza sta la nuvola<aa> rispetto alla<aa> alla<aa> <mh> alla barca ?
+
+
+p1#266:  quale #<p2#267> nuvola ?#
+
+
+p2#267:  #<p1#266> la nuvola# quella di destra <inspiration>
+
+
+p1#268:  quella quella più #<p2#269> piccola#
+
+
+p2#269:  #<p1#268> <eh!>#
+
+
+p1#270:  <vocal> sta<aa> <inspiration> <sp> allora <sp> la parte finale quella che tocca col bordo più o meno è<ee> all'altezza di metà della<aa> vela <sp> della<aa> sì della vela della bandierina
+
+
+<sp>
+
+
+p2#271:  di metà della #<p1#272> bandierina#
+
+
+p1#272:  #<p2#271> sì# <sp> #<p2#273> sì#
+
+
+p2#273:  #<p1#272> <inspiration> la parte# finale quella che tocca la <sp> sul bordo <sp> sì <sp> sì , ho capito
+
+
+p1#274:  sì , #<p2#275> più o meno a metà#
+
+
+p2#275:  #<p1#274> cioè il margine superiore# della<aa> #<p1#276> della nuvola#
+
+
+p1#276:  #<p2#275> sì sì <mh> più o meno metà#
+
+
+<sp>
+
+
+p2#277:  {[whispering] okay}
+
+
+p1#278:  <inspiration> e invece <sp> poi ce sta poi #<p2#279> scende giù#
+
+
+p2#279:  #<p1#278> e quella sotto ?# <sp> sta più o meno<oo> all'altezza delle vele , #<p1#280>
+         insomma#
+
+
+p1#280:  #<p2#279> sì sì# sì sì <sp> a <mm>metà delle vele , sì
+
+
+<sp>
+
+
+p2#281:  <inspiration> senti , e<ee> <sp> l'altra nuvola invece<ee> <sp> il <eeh> / la punta , no ?
+
+
+p1#282:  <mh>
+
+
+<lp>
+
+
+p2#283:  <ehm> <sp> cioè sarà un centimetro <sp> #<p1#284> <eeh>#
+
+
+p1#284:  #<p2#283> quale qual# altra<aa> <sp> altra / quella #<p2#285> più grande ?#
+
+
+p2#285:  #<p1#284> se tu parti# <sp> sì <sp> se tu parti dal <eeh> dal margine<ee> <inspiration> sinistro di quella / della nuvola grande, #<p1#286> no?# dove si incrocia col bordo della figura ?
+
+
+p1#286:  #<p2#285> sì# <lp> #<p2#287> sì<ii>#
+
+
+p2#287:  #<p1#286> <inspiration># <eeh> sarà da lì <sp> alla punta della nuvola un centimetro
+
+
+<sp>
+
+
+p1#288:  guarda <sp> <tongue-click> <sp> tocca un po'<oo> i capelli del #<p2#289> bambino#
+
+
+p2#289:  #<p1#288> no<oo># <inspiration> allora ne abbiamo trovata #<p1#290> un'altra !#
+
+
+p1#290:  #<p2#289> aspetta# , aspetta
+
+
+p2#291:  non li tocca per niente da me
+
+
+p1#292:  aspetta <sp> no no no , non ci siamo capiti <sp> quello che è <sp> <tongue-click> <sp> la nuvola più grande
+
+
+<sp> 
+
+
+p2#293:  #<p1#294> <tongue-click> <eh!>#
+
+
+p1#294:  #<p2#293> inizia# dal bordo / io poi / dal bordo<oo> / però poi io part+ / parto dal bordo , non #<p2#295> da da
+         sopra , dal soffitto# , dal bordo<oo>
+
+
+p2#295:  #<p1#294> superiore <sp># <ah!> okay
+
+
+p1#296:  ecco <sp> no , non è che tocca la testa del bambino
+
+
+p2#297:  <ah!> e #<p1#298> allora ?#
+
+
+p1#298:  #<p2#297> no# no no , nel senso che io sto / ho fa+ / ho<oo> preso le misure per vedere a che altezza sta
+         della barca a vela <sp> <inspiration> e sta distante cioè nel senso magari se prendo la misura<aa>
+         la<aa> la pa+ / questa attaccatura sta all'altezza più o meno dei capelli del bambino , no che so attaccati
+
+
+<sp>
+
+
+p2#299:  {[whispering] sta all'altezza dei #<p1#300> capelli del bambino} sì#
+
+
+p1#300:  #<p2#299> <tongue-click> capito cioè nel senso#
+
+
+p2#301:  quindi <sp> il bordo però , quello la+ <sp> laterale ? #<p1#302> <sp> quello sinistro della figura#
+
+
+p1#302:  #<p2#301> sì sì sì sulla sinistra , no# , non è che tocca , #<p2#303> magari toccasse !#
+
+
+p2#303:  #<p1#302> <tongue-click> no la punta# invece
+
+
+p1#304:  la punta , no la punta finale , no , no , sta distante
+
+
+p2#305:  <eh!> ho capito , però
+
+
+p1#306:  <mh>
+
+
+p2#307:  segui <sp> il mio #<p1#306> ragionamento , allora# dalla<aa> <inspiration> dal bordo superiore della figura
+
+
+p1#308:  #<p2#307> <tongue-click> sì# <lp> sì
+
+
+p2#309:  <inspiration> allora <sp> #<p1#310> <ehm># <lp> <mh> <sp> partendo da dove si incrocia la nuvola col bordo
+         superiore <sp> della figura , no ?
+
+
+<lp>
+
+
+p1#310:  #<p2#309> <cough># <lp> <mh>
+
+
+p2#311:  ci sei ?
+
+
+p1#312:  sì<ii>
+
+
+<sp>
+
+
+p2#313:  inizia la punta a un certo #<p1#314> punto# <sp> <eh!> <sp> tra il bordo superiore della figura dove si
+         inc+ / della<aa> / dove si incrocia la nuvola
+
+
+p1#314:  #<p2#313> sì# <lp> sì
+
+
+p2#315:  e<ee> <sp> e la punta della figura
+
+
+p1#316:  sì<ii>
+
+
+p2#317:  <eeh> <sp> ci sarà un centimetro ?
+
+
+p1#318:  sì
+
+
+p2#319:  {[whispering] <eh> allora niente !}
+
+
+p1#320:  {[whispering] sì sì <sp> <tongue-click> centimetro sì , più <unclear>} <sp> <tongue-click> <inspiration> <eeh> #<p2#321> qui
+         a<aa>#
+
+
+p2#321:  #<p1#320> <inspiration> guardiamo# le onde sotto la papera , Giorda'
+
+
+p1#322:  sì , io c'ho<oo>
+
+
+p2#323:  quante sono ? <sp> {[whispering] una due tre #<p1#324> quattro e cinque#}
+
+
+p1#324:  #<p2#323> aspetta# , i segni da<aa> sotto la papera #<p2#325> partendo da sinistra#
+
+
+p2#325:  #<p1#324> <inspiration> facciamo , no , guarda# allora guarda <inspiration> tutte le onde alla sinistra della papera
+
+
+p1#326:  perfetto
+
+
+p2#327:  {[whispering] uno #<p1#328> due tre quattro cinque sei sette otto#}
+
+
+p1#328:  #<p2#327> quindi sono uno due {[whispering] tre  <sp> <unclear> sette otto# <unclear>} nove
+
+
+<sp>
+
+
+p2#329:  otto , io
+
+
+p1#330:  aspetta , allora io <sp> aspetta
+
+
+p2#331:  non contare la linea continua della<aa> della<aa> <ehm> insomma del<ll> 
+         #<p1#332> <inspiration> della battigia , sì , insomma#
+
+
+p1#332:  #<p2#331> della spiaggia <sp> <ah!># no , allora , aspetta , allora <sp> uno due tre {[whispering] <unclear>} <sp>
+         cinque sei sette #<p2#333> otto# e però non conto quella<aa> dritta <sp> all'orizzonte
+
+
+p2#333:  #<p1#332> otto <sp> benissimo# <lp> {[whispering] uno due tre quattro cinque sei sette 
+         <eh> sì pure io}
+
+
+p1#334:  non la conti #<p2#335> quella ?# 
+
+
+p2#335:  #<p1#334> <unclear> no#
+
+
+<sp>
+
+
+p1#336:  <ah>
