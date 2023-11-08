@@ -15,6 +15,8 @@ ver = 'orig_50_DR25_M_'
 ver = 'pe_50_DR25_M_'
 # --------------------------------------------------
 ver = 'pe_20_DR25_M_'
+# --------------------------------------------------
+ver = 'pe_13_DR25_M_'
 
 ver += sentence_type + '_'
 
@@ -100,6 +102,11 @@ try:
 
                         elif '_20_' in ver:
                             needLen = 20
+
+                            midValue = getMidValue(value, needLen, outVer)
+
+                        elif '_13_' in ver:
+                            needLen = 13
 
                             midValue = getMidValue(value, needLen, outVer)
 

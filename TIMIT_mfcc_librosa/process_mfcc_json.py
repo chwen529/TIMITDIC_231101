@@ -14,6 +14,8 @@ ver = 'orig_50_DR25_M_'
 ver = 'pe_50_DR25_M_'
 # --------------------------------------------------
 ver = 'pe_20_DR25_M_'
+# --------------------------------------------------
+ver = 'pe_13_DR25_M_'
 
 ver += sentence_type + '_'
 
@@ -137,6 +139,16 @@ try:
 
                                         # default n_mfcc = 20
                                         f_MFCC_parm = librosa.feature.mfcc(y=PEsignal, sr=sr)
+
+                                    elif '_13_' in ver:
+                                        shape = 13
+
+                                        y, sr = librosa.load(AF_path)
+
+                                        PEsignal = PreEmphasis(y, 0.95)
+
+                                        # default n_mfcc = 20
+                                        f_MFCC_parm = librosa.feature.mfcc(y=PEsignal, sr=sr, n_mfcc=shape)
 
                                     else:
                                         shape = 50
