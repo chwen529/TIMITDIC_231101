@@ -6,13 +6,13 @@ import pandas as pd
 import datetime
 import openpyxl
 
-sentence_type = 'SA1'
+# sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
 sentence_type = 'SX'
 
-ver = 'orig_50_DR25_M_'
-ver = 'pe_50_DR25_M_'
+ver = 'orig_50_M_'
+ver = 'pe_50_M_'
 
 ver += sentence_type + '_'
 
@@ -24,7 +24,7 @@ gen_img = False
 gen_img_limit = 3
 
 now_path = r'D:\TIMITDIC_231101'
-data_path = now_path + '_data_CLIPS'
+data_path = now_path + '_data_Italian_Spanish'
 
 try:
     for data_set in ['TEST', 'TRAIN']:

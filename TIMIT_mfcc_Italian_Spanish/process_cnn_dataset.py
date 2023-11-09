@@ -2,20 +2,20 @@ import os
 import json
 import numpy as np
 
-sentence_type = 'SA1'
+# sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
 sentence_type = 'SX'
 
-ver = 'orig_50_DR25_M_'
-ver = 'pe_50_DR25_M_'
+ver = 'orig_50_M_'
+ver = 'pe_50_M_'
 
 ver += sentence_type + '_'
 
-ver += '2_'
+# ver += '2_'
 
 now_path = r'D:\TIMITDIC_231101'
-data_path = now_path + '_data_CLIPS'
+data_path = now_path + '_data_Italian_Spanish'
 
 ver_name_list = [ver]
 

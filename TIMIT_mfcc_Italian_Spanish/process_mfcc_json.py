@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import librosa.feature
 
-sentence_type = 'SA1'
+# sentence_type = 'SA1'
 # sentence_type = 'SA2'
 # sentence_type = 'SA'
 sentence_type = 'SX'
 
-ver = 'orig_50_DR25_M_'
-ver = 'pe_50_DR25_M_'
+ver = 'orig_50_M_'
+ver = 'pe_50_M_'
 
 ver += sentence_type + '_'
 
@@ -21,7 +21,7 @@ gen_img_limit = 3
 
 source_path = r'D:\TIMITDIC data'
 now_path = r'D:\TIMITDIC_231101'
-data_path = now_path + '_data_CLIPS'
+data_path = now_path + '_data_Italian_Spanish'
 
 try:
     for data_set in ['TEST', 'TRAIN']:
@@ -44,10 +44,8 @@ try:
             'mfcc'
         ]
 
-        class_name_list = ['DR1', 'DR2', 'DR3', 'DR4', 'DR5', 'DR6', 'DR7', 'DR8']
-
-        if 'DR25' in ver:
-            class_name_list = ['DR2', 'CLIPS']
+        # class_name_list = ['DR1', 'DR2', 'DR3', 'DR4', 'DR5', 'DR6', 'DR7', 'DR8']
+        class_name_list = ['DR2', 'CLIPS', 'soundboard']
 
         type_name_list = ['F', 'M']
 
@@ -104,7 +102,8 @@ try:
                             # 遍歷單一人檔案，ex.SA1.WAV.wav
                             for CF_name_file in os.listdir(os.path.join(CF_path, CF_name)):
 
-                                if ('.WAV.wav' in CF_name_file and sentence_type in CF_name_file) or (class_name == 'CLIPS'):
+                                if ('.WAV.wav' in CF_name_file and sentence_type in CF_name_file) or \
+                                        (class_name == 'CLIPS') or (class_name == 'soundboard'):
 
                                     gen_img_count += 1
 
