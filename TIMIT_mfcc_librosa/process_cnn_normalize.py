@@ -14,18 +14,18 @@ sentence_type = 'SA1'
 ver = 'orig_50_DR25_M_'
 ver = 'pe_50_DR25_M_'
 # --------------------------------------------------
-ver = 'pe_20_DR25_M_'
+# ver = 'pe_20_DR25_M_'
 # --------------------------------------------------
-ver = 'pe_13_DR25_M_'
+# ver = 'pe_13_DR25_M_'
 
 ver += sentence_type + '_'
 
 outVer = ''
-# outVer = '2_'
+outVer = '2_'
 
 gen_img = False
-# gen_img = True
-gen_img_limit = 1
+gen_img = True
+gen_img_limit = 3
 
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data_all_sentence'
@@ -208,7 +208,10 @@ try:
                             ax = plt.subplot()
 
                             # 二維
-                            ax.imshow(Nvalue.tolist(), cmap='hsv')
+                            im = ax.imshow(Nvalue.tolist(), cmap='hsv')
+
+                            # Add colorbar
+                            cbar = plt.colorbar(im, ax=ax)
 
                             plt.savefig(
                                 os.path.join(

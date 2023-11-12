@@ -5,7 +5,7 @@ import numpy as np
 ver = 'orig_50_M_librosa_'
 ver = 'pe_50_M_librosa_'
 
-ver += '2_'
+# ver += '2_'
 
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data_AIS'

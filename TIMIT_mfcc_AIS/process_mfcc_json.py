@@ -182,7 +182,11 @@ try:
 
                                         # 二維
                                         if PF_name not in ['signal', 'PEsignal']:
-                                            ax.imshow(f_MFCC_parm.tolist(), cmap='hsv')
+                                            # 二維
+                                            im = ax.imshow(f_MFCC_parm.tolist(), cmap='hsv')
+
+                                            # Add colorbar
+                                            cbar = plt.colorbar(im, ax=ax)
 
                                             plt.savefig(
                                                 os.path.join(

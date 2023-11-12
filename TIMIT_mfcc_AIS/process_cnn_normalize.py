@@ -21,7 +21,7 @@ data_path = now_path + '_data_AIS'
 
 try:
     # for data_set in ['TEST', 'TRAIN']:
-    for data_set in ['TRAIN']:
+    for data_set in ['TEST']:
         print(data_set)
 
         MJF_path = os.path.join(data_path, data_set, 'mfcc_json')
@@ -197,7 +197,10 @@ try:
                             ax = plt.subplot()
 
                             # 二維
-                            ax.imshow(Nvalue.tolist(), cmap='hsv')
+                            im = ax.imshow(Nvalue.tolist(), cmap='hsv')
+
+                            # Add colorbar
+                            cbar = plt.colorbar(im, ax=ax)
 
                             plt.savefig(
                                 os.path.join(
