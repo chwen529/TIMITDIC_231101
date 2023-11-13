@@ -7,15 +7,13 @@ import datetime
 import openpyxl
 
 sentence_type = 'SA1'
-sentence_type = 'SA2'
+# sentence_type = 'SA2'
 # sentence_type = 'SA'
 
 ver = 'orig_12_1_DR25_M_'
-ver = 'pe_12_1_DR25_M_'
+# ver = 'pe_12_1_DR25_M_'
 # ver = 'orig_2612_1_DR25_M_'
 # ver = 'pe_2612_1_DR25_M_'
-# ver = 'orig_30_1_DR25_M_' # 樣本不足
-# ver = 'pe_30_1_DR25_M_' # 樣本不足
 # ##################################################
 # ver = 'pe_7_1_DR25_M_librosa_'
 # ##################################################

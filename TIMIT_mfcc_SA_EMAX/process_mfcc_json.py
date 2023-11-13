@@ -6,11 +6,11 @@ import librosa
 import numpy as np
 
 sentence_type = 'SA1'
-sentence_type = 'SA2'
+# sentence_type = 'SA2'
 # sentence_type = 'SA'
 
 ver = 'orig_12_1_DR25_M_'
-ver = 'pe_12_1_DR25_M_'
+# ver = 'pe_12_1_DR25_M_'
 # ver = 'orig_2612_1_DR25_M_'
 # ver = 'pe_2612_1_DR25_M_'
 # ver = 'orig_30_1_DR25_M_'
@@ -29,7 +29,11 @@ gen_img = False
 # gen_img = True
 gen_img_limit = 3
 
-source_path = r'D:\TIMITDIC data_split_matlab_SA2_DR25_M\threshold0.03_frameLen100_silentMax300'
+if sentence_type == 'SA1':
+    source_path = r'D:\TIMITDIC data_split_matlab_SA1_DR25_M\threshold0.03_frameLen100_silentMax300'
+else:
+    source_path = r'D:\TIMITDIC data_split_matlab_SA2_DR25_M\threshold0.03_frameLen100_silentMax300'
+
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data'
 
