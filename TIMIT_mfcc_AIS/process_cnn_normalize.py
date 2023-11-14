@@ -9,19 +9,22 @@ import openpyxl
 ver = 'orig_50_M_librosa_'
 ver = 'pe_50_M_librosa_'
 
+ver = 'orig_50_librosa_'
+ver = 'pe_50_librosa_'
+
 outVer = ''
 outVer = '2_'
 
 gen_img = False
-gen_img = True
+# gen_img = True
 gen_img_limit = 3
 
 now_path = r'D:\TIMITDIC_231101'
 data_path = now_path + '_data_AIS'
 
 try:
-    # for data_set in ['TEST', 'TRAIN']:
-    for data_set in ['TEST']:
+    for data_set in ['TEST', 'TRAIN']:
+    # for data_set in ['TEST']:
         print(data_set)
 
         MJF_path = os.path.join(data_path, data_set, 'mfcc_json')

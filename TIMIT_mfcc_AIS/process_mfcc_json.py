@@ -11,6 +11,9 @@ import librosa.feature
 ver = 'orig_50_M_librosa_'
 ver = 'pe_50_M_librosa_'
 
+ver = 'orig_50_librosa_'
+ver = 'pe_50_librosa_'
+
 gen_img = False
 gen_img = True
 gen_img_limit = 3

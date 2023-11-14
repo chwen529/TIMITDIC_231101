@@ -69,7 +69,8 @@ def getNormalizeValueNew(value, PF_name):
         # ##############################################
         # pe_50_DR25_M_
         maxValue = 166.48165893554688
-        minValue = -890.1771850585938
+        minValue = -891.3726196289062
+        # pe_50_librosa_
     else:
         maxValue = np.max(value)
         minValue = np.min(value)
